@@ -1,5 +1,6 @@
 const customerSchema = require('../model/Customer');
 
+
 const getAllCustomers = async (req, res) => {
     try {
         //#swagger.tags=['Customers']

@@ -20,9 +20,9 @@ Content-Type: application/json
     "firstName": "JoeTest",
     "lastName": "Test",
     "email": "joe.test@test.com",
-    "itin": "1236548525",
-    "businessName": "1hola",
-    "phoneNumber": "abcd",
+    "itin": "",
+    "businessName": "abcadbdbdbdsdfb",
+    "phoneNumber": "1231231231",
     "address": "1 avenida 9-69 zona 2 , Guatemala"
 }
 
@@ -69,7 +69,7 @@ Content-Type: application/json
 }
 
 ### Delete Contact
-DELETE http://localhost:8080/customers/67415e87e8c0ba1eb515ad48
+DELETE http://localhost:8080/customers/67413fb1227dd0db7e3e9333
 
 ### Delete Contact Render.com
 DELETE https://project1-ad3r.onrender.com/customers/6738a84222c1c7d91589f96a
@@ -80,7 +80,7 @@ DELETE https://project1-ad3r.onrender.com/customers/6738a84222c1c7d91589f96a
 GET http://localhost:8080/products
 
 ### Get contact by ID
-GET http://localhost:8080/products/6741301e227dd0db7e3e932d
+GET http://localhost:8080/products/6742a68214602cb06478ff23
 
 ### Create New Product
 POST http://localhost:8080/products HTTP/1.1
@@ -91,9 +91,9 @@ Content-Type: application/json
     "price": "100",
     "description": "joe.test@test.com",
     "quantity": "12",
-    "purchaseDate": "2002-12-09",
-    "discount": "5",
-    "providerId": "1001"
+    "purchaseDate": "12-09",
+    "discount": "1",
+    "providerId": "1000"
 }
 
 ### Update Contact
@@ -110,4 +110,4 @@ Content-Type: application/json
     "providerId": "1001"
 }
 ### Delete Contact
-DELETE http://localhost:8080/products/674167b16fcb222c43340a6b
+DELETE http://localhost:8080/products/6742a6423a33d5cca2947fd4
