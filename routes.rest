@@ -87,27 +87,27 @@ POST http://localhost:8080/products HTTP/1.1
 Content-Type: application/json
 
 {
-    "productName": "JoeTest",
+    "productName": "Clothes",
     "price": "100",
-    "description": "joe.test@test.com",
+    "description": "T-shirt",
     "quantity": "12",
     "purchaseDate": "12-09",
     "discount": "1",
     "providerId": "1000"
 }
 
-### Update Contact
-PUT http://localhost:8080/products/674167b16fcb222c43340a69 HTTP/1.1
+### Update Products
+PUT http://localhost:8080/products/6742a6413a33d5cca2947fd2 HTTP/1.1
 Content-Type: application/json
 
 {
-    "productName": "UpdatingJoeTest",
+    "productName": "Computer",
     "price": "100",
-    "description": "joe.test@test.com",
+    "description": "Dell Insipiron 1020",
     "quantity": "12",
     "purchaseDate": "2002-12-09",
     "discount": "5",
     "providerId": "1001"
 }
-### Delete Contact
+### Delete Producst
 DELETE http://localhost:8080/products/6742a6423a33d5cca2947fd4
