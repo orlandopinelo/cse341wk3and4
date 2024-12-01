@@ -61,7 +61,7 @@ app.get('/github/callback', passport.authenticate('github',{
 failureRedirect: '/api-docs', session: false}),
 (req, res) => {
     req.session.user = req.user;
-    res.redirect;
+    res.redirect('/');
 });
 // app.use((req, res, next) => {
 //     res.setHeader('Access-Control-Allow-Origin', '*');
