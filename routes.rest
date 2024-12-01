@@ -3,7 +3,7 @@
 GET http://localhost:8080/customers
 
 ### Get contact by ID
-GET http://localhost:8080/customers/67413f87227dd0db7e3e9331
+GET http://localhost:8080/customers/674189eec8a2e7382d9b9dd2
 
 // Render
 ### Get all contacts
@@ -20,7 +20,7 @@ Content-Type: application/json
     "firstName": "JoeTest",
     "lastName": "Test",
     "email": "joe.test@test.com",
-    "itin": "",
+    "itin": "1000",
     "businessName": "abcadbdbdbdsdfb",
     "phoneNumber": "1231231231",
     "address": "1 avenida 9-69 zona 2 , Guatemala"
@@ -41,7 +41,7 @@ Content-Type: application/json
 }
 
 ### Update Contact
-PUT http://localhost:8080/customers/67415d6ca042c52e772e907b HTTP/1.1
+PUT http://localhost:8080/customers/6742b0910e37a3b5f63b61e7 HTTP/1.1
 Content-Type: application/json
 
 {
@@ -50,7 +50,7 @@ Content-Type: application/json
     "email": "joe.test@test.com",
     "itin": "1235252",
     "businessName": "1hola",
-    "phoneNumber": "54338708",
+    "phoneNumber": "",
     "address": "1 avenida 9-69 zona 2 , Guatemala"
 }
 
@@ -69,10 +69,10 @@ Content-Type: application/json
 }
 
 ### Delete Contact
-DELETE http://localhost:8080/customers/67413fb1227dd0db7e3e9333
+DELETE http://localhost:8080/customers/6742b0910e37a3b5f63b61e7
 
 ### Delete Contact Render.com
-DELETE https://project1-ad3r.onrender.com/customers/6738a84222c1c7d91589f96a
+DELETE https://project1-ad3r.onrender.com/customers/6742b0910e37a3b5f63b61e7
 
 ### ---------------------------Products-------------------------------------
 
